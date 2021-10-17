@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var NumbersCollection_1 = require("./NumbersCollection");
 var Sorter = /** @class */ (function () {
     function Sorter(collection) {
         this.collection = collection;
@@ -17,7 +16,4 @@ var Sorter = /** @class */ (function () {
     };
     return Sorter;
 }());
-var numbersCollections = new NumbersCollection_1.NumbersCollection([10, 3, -5, 2]);
-var sorter = new Sorter(numbersCollections);
-sorter.sort();
-console.log(numbersCollections.data);
+exports.default = Sorter;
