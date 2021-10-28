@@ -33,3 +33,5 @@ Ex:
 - Can contain real implementation for some methods
 - The implemented methods can refer to other methods that don't actually exist yet(we still have to provide names and types for the un-implemented methods)
 - can make child classes promise to implement some other method
+
+![compare](https://github.com/haivx/ez-typescript/tree/main/sort/interfacevsabstract.png?raw=true)
