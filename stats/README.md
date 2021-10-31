@@ -24,3 +24,7 @@ export type MatchData = [
   string
 ];
 ```
+4. Generics
+- Like function argument s, but for types in class/function definitions
+- Allows us to define the type of a property/argument/return value at a future point
+- Used heavily when writing reusable code
