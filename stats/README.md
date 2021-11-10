@@ -28,3 +28,11 @@ export type MatchData = [
 - Like function argument s, but for types in class/function definitions
 - Allows us to define the type of a property/argument/return value at a future point
 - Used heavily when writing reusable code
+
+5. Inheritance vs composition:
+
+```
+  Favor object composition over class inheritance
+```
+
+Composition means one object has a reference to another object or posibly multiple other object.
