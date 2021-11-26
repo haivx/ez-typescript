@@ -5,7 +5,7 @@ interface SyncProps {
     id?: number; 
 }
 
-export class Sync<T extends SyncProps> {
+export class ApiSync<T extends SyncProps> {
     constructor(public rootUrl: string) { }
 
     fetch(id: number): AxiosPromise {
