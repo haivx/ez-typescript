@@ -26,4 +26,10 @@ export class User extends Model<UserProps> {
             (json: UserProps) => User.initialUser(json)
         )
     }
+
+    setRandomAge(): void {
+        this.set({
+            age: Math.round(Math.random() * 100)
+        }) 
+    }
 } 

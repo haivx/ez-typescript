@@ -14,11 +14,3 @@ export class Attributes<T> {
         return this.data
     }
 }
-
-const attrs = new Attributes<UserProps>({
-    id: 6,
-    age: 20,
-    name: 'sdf'
-})
-
-const name = attrs.get('name')
