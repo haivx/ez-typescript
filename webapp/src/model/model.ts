@@ -20,6 +20,7 @@ interface HasId {
     id?: number;
 }
 
+// Generic class 
 export class Model<T extends HasId> {
     constructor(
         private attributes: ModelAttributes<T>,

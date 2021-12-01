@@ -1,6 +1,8 @@
 import axios, { AxiosPromise, AxiosResponse } from 'axios'
 import { UserProps } from './User';
 
+
+// Generic constrain => guarantee to Typescript that type T is going to have a certain set of properties and method tides to it
 interface SyncProps {
     id?: number; 
 }
